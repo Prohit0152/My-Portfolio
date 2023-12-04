@@ -26,8 +26,8 @@
 
             </nav>
             <div class="header-text">
-                <p>full-stack developer(Java)</p>
                 <h1>Hi, i'm <span>Prohit</span><br>Bagde From India</h1>
+                <p><span id="element"></span></p>
             </div>
         </div>
     </div>
@@ -100,7 +100,7 @@
                         portfolio, download my CV, and share your valuable feedback through the provided form. I am
                         eager to hear your thoughts and continuously refine my work to create even more engaging web
                         experiences.</p>
-                    
+
                 </div>
 
                 <div>
@@ -113,7 +113,7 @@
                         mainly used at institutions and organizations. By using this system it provides better
                         convenience to
                         management.</p>
-                    
+
                 </div>
 
                 <div>
@@ -128,7 +128,7 @@
                         registered email. Seller order book will show that their product order has placed with quantity
                         they buy with their delivery address. Java (JSP,
                         Servlet), Bootstrap, JavaScript, MySQL.</p>
-                    
+
                 </div>
             </div>
         </div>
@@ -137,35 +137,37 @@
     <!-- -----------Portfolio------------ -->
     <div id="portfolio">
         <div class="container">
-            <h1 class="sub-title">My Work </h1>
+            <h1 class="sub-title">Mini Projects </h1>
             <div class="work-list">
                 <div class="work">
                     <img src="images/work-1.png">
                     <div class="layer">
-                        <h3>Social Media App</h3>
-                        <p>The App Connect you yo the telented people around the world.
-                            Download it From Play Store </p>
-                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        <h3>Tic-Tac-Toe </h3>
+                        <p>Tic-tac-toe is a classic two-player game where opponents take turns marking Xs and Os on a
+                            3x3 grid. The goal is to form a horizontal, vertical, or diagonal line of three marks. </p>
+                        <a href="https://tic-tac-toe-eight-navy.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
                     </div>
                 </div>
 
                 <div class="work">
                     <img src="images/work-2.png">
                     <div class="layer">
-                        <h3>Music App</h3>
-                        <p>The App Connect you yo the telented people around the world.
-                            Download it From Play Store </p>
-                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        <h3>Website QR code generator</h3>
+                        <p>A website QR code generator enables users to quickly create QR codes for URLs, text, or
+                            contact information. Simply input data, generate a QR code, and use it for easy information
+                            sharing or marketing purposes.</p>
+                        <a href="https://website-qr-ganerater.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
                     </div>
                 </div>
 
                 <div class="work">
                     <img src="images/work-3.png">
                     <div class="layer">
-                        <h3>Online Shopping App</h3>
-                        <p>The App Connect you yo the telented people around the world.
-                            Download it From Play Store </p>
-                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        <h3>To-Do app</h3>
+                        <p>A to-do app is a productivity tool that helps users organize tasks, set priorities, and track
+                            progress. It simplifies time management by allowing users to create, manage, and complete
+                            tasks efficiently.</p>
+                        <a href="https://todo-app-javascript-main.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
                     </div>
                 </div>
             </div>
@@ -249,6 +251,15 @@
                 })
                 .catch(error => console.error('Error!', error.message))
         })
+    </script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['JAVA Developer', 'Spring Framework', 'Spring Boot', 'Hibernet Framework', 'Servlet', 'HTML, Css', 'full-stack developer(Java)'],
+            typeSpeed: 50,
+        });
     </script>
 
 </body>
